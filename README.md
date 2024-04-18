@@ -12,3 +12,10 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
+
+Let a, b and n be constants greater than or equal to 0
+Given the Change of Base Rule of Log: $\log_{a}n = \log_{c}n / \log_{c}a$
+Let a = 5 and c = 2 so that $\log_{5}n = \log_{2}n / \log_{2}5$
+The properites of big O nullifies constants, thus removing $1 / \log_{2}5$
+So $O(\log_{5}n) = O(\log_{2}n)$
+
