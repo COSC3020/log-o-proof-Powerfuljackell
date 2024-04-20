@@ -17,6 +17,6 @@ Let a, b and n be constants greater than or equal to 0
 Given the Change of Base Rule of Log: $\log_{a}n = \log_{c}n / \log_{c}a$
 Let a = 5 and c = 2 so that $\log_{5}n = \log_{2}n / \log_{2}5$
 The properites of big O nullifies constants, thus removing $1 / \log_{2}5$
-This is because within the formal definition of $O$ $T(n)$ only needs to be less than or equal to $c \cdot f(n) \forall n \geq n_0$ to be included so $T(n)$ is not required to include the constant $c$
+This is because within the formal definition of $O$ $T(n)$ only needs to be less than or equal to $c \cdot f(n) \forall n \geq n_0$ to be included so when comparing c to that of $f(n) \forall n \geq n_0$ as $n \to \infty$ f(n) will always be magnitudes larger than c
 So $O(\log_{5}n) = O(\log_{2}n)$
 
