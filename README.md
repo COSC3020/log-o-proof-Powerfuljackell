@@ -20,7 +20,7 @@ The properites of big O nullifies constants, thus removing $1 / \log_{2}5$
 
 *Commented out to return to later. This is because within the formal definition of $O$ $T(n)$ only needs to be less than or equal to $c \cdot f(n) \forall n \geq n_0$ to be included so when comparing c to that of $f(n) \forall n \geq n_0$ as $n \to \infty$ f(n) will always be larger than c*
 Given $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$, 
-For all f(n): $\lim{n \to \infty}(c \cdot f(n)) = f(n)$
+For all f(n): $\lim_{n \to \infty}c \cdot f(n) = f(n)$
 
 So $O(\log_{5}n) = O(\log_{2}n)$
 
